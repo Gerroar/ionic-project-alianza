@@ -1,0 +1,7 @@
+{
+  "name": "ionic-project-alianza",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
