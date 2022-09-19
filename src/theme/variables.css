@@ -3,6 +3,7 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -197,7 +198,7 @@ http://ionicframework.com/docs/theming/ */
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: #FCF7F7;
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
@@ -234,3 +235,15 @@ http://ionicframework.com/docs/theming/ */
     --ion-card-background: #1e1e1e;
   }
 }
+
+/**Login Sign in Card */
+
+.siglog-card-1 {
+  position: absolute;
+  height: 550px;
+  width: 90%;
+  
+}
+
+/**Login Sign in Card */
+

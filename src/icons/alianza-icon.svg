@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#FC8229;}
+	.st2{fill:#2B97FA;}
+	.st3{fill:#D077E0;}
+	.st4{fill:#00D407;}
+</style>
+<g id="Capa_6">
+	<path class="st0" d="M422,476H58c-32,0-58-26-58-58V58C0,26,26,0,58,0h364c32,0,58,26,58,58v360C480,450,454,476,422,476z"/>
+</g>
+<g id="orange-dot">
+	<circle class="st1" cx="79.3" cy="352" r="72.8"/>
+	<path class="st1" d="M98,131H54c-1.7,0-3,1.3-3,3v10.5v18V288c0,1.7,1.3,3,3,3h27c1.7,0,3-1.3,3-3V165c0-1.7,1.3-3,3-3h11
+		c1.7,0,3-1.3,3-3v-25C101,132.3,99.7,131,98,131z"/>
+</g>
+<g id="blue-dot">
+	<path class="st2" d="M246.4,131H217v31h26c1.7,0,3,1.3,3,3v129c0,1.7,1.3,3,3,3h27c1.7,0,3-1.3,3-3V162.5V134c0-1.7-1.3-3-3-3
+		H246.4z"/>
+	<circle class="st2" cx="236.3" cy="352" r="72.8"/>
+</g>
+<g id="union1">
+	<path class="st3" d="M213.6,188H101.1c-2.5,0-4.6-2.1-4.6-4.6v-64.6c0-2.5,2.1-4.6,4.6-4.6h112.5c2.5,0,4.6,2.1,4.6,4.6v64.6
+		C218.2,185.9,216.1,188,213.6,188z"/>
+	<rect x="105.7" y="42" class="st3" width="32.7" height="72.2"/>
+	<rect x="105.7" y="42" class="st3" width="52.4" height="31.2"/>
+</g>
+<g id="green-dot">
+	<polygon class="st4" points="375,40 375,71 408,71 408,283 440,283 440,71.9 440,42.1 440,40 	"/>
+	<polygon class="st4" points="357.3,420.9 316.5,350.1 357.3,279.3 439.1,279.3 480,350.1 439.1,420.9 	"/>
+</g>
+<g id="meta">
+	<polygon class="st3" points="222.5,14.8 204.9,14.8 157.4,14.8 157.4,102.4 187.3,102.4 186.8,102.3 	"/>
+	<polygon class="st1" points="276.4,14.8 222.3,14.8 186.7,102.4 241.3,102.4 240.9,102.3 	"/>
+	<polygon class="st4" points="332.9,14.8 297.8,102.4 381.7,102.4 381.7,14.8 	"/>
+	<polygon class="st2" points="334.3,14.8 276.5,14.8 240.7,102.4 298.9,102.4 298.5,102.3 	"/>
+</g>
+</svg>
