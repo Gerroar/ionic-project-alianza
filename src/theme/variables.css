@@ -75,6 +75,38 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** Google **/
+  --ion-color-google: #fff;
+	--ion-color-google-rgb: 255,255,255;
+	--ion-color-google-contrast: #000000;
+	--ion-color-google-contrast-rgb: 0,0,0;
+	--ion-color-google-shade: #e0e0e0;
+	--ion-color-google-tint: #ffffff;
+
+  /** GitHub **/
+  --ion-color-github: #353535;
+	--ion-color-github-rgb: 53,53,53;
+	--ion-color-github-contrast: #ffffff;
+	--ion-color-github-contrast-rgb: 255,255,255;
+	--ion-color-github-shade: #2f2f2f;
+	--ion-color-github-tint: #494949;
+
+  /**Facebook**/
+  --ion-color-facebook: #3b5998;
+	--ion-color-facebook-rgb: 59,89,152;
+	--ion-color-facebook-contrast: #ffffff;
+	--ion-color-facebook-contrast-rgb: 255,255,255;
+	--ion-color-facebook-shade: #344e86;
+	--ion-color-facebook-tint: #4f6aa2;
+
+  /** Apple **/
+  --ion-color-apple: #000;
+	--ion-color-apple-rgb: 0,0,0;
+	--ion-color-apple-contrast: #ffffff;
+	--ion-color-apple-contrast-rgb: 255,255,255;
+	--ion-color-apple-shade: #000000;
+	--ion-color-apple-tint: #1a1a1a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -154,7 +186,7 @@ http://ionicframework.com/docs/theming/ */
    */
 
   .ios body {
-    --ion-background-color: #000000;
+    --ion-background-color: rgb(207, 206, 206);
     --ion-background-color-rgb: 0,0,0;
 
     --ion-text-color: #ffffff;
@@ -182,7 +214,7 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-item-background: #000000;
 
-    --ion-card-background: #1c1c1d;
+    --ion-card-background: #5a5a5e;
   }
 
   .ios ion-modal {
@@ -198,7 +230,7 @@ http://ionicframework.com/docs/theming/ */
    */
 
   .md body {
-    --ion-background-color: #FCF7F7;
+    --ion-background-color: rgb(207, 206, 206);
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
@@ -232,18 +264,427 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-tab-bar-background: #1f1f1f;
 
-    --ion-card-background: #1e1e1e;
+    --ion-card-background: #5a5a5e;
   }
 }
 
-/**Login Sign in Card */
 
-.siglog-card-1 {
-  position: absolute;
-  height: 550px;
-  width: 90%;
-  
+.ion-color-google {
+	--ion-color-base: var(--ion-color-google);
+	--ion-color-base-rgb: var(--ion-color-google-rgb);
+	--ion-color-contrast: var(--ion-color-google-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-google-contrast-rgb);
+	--ion-color-shade: var(--ion-color-google-shade);
+	--ion-color-tint: var(--ion-color-google-tint);
+}
+
+.ion-color-github {
+	--ion-color-base: var(--ion-color-github);
+	--ion-color-base-rgb: var(--ion-color-github-rgb);
+	--ion-color-contrast: var(--ion-color-github-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-github-contrast-rgb);
+	--ion-color-shade: var(--ion-color-github-shade);
+	--ion-color-tint: var(--ion-color-github-tint);
+}
+
+.ion-color-apple {
+	--ion-color-base: var(--ion-color-apple);
+	--ion-color-base-rgb: var(--ion-color-apple-rgb);
+	--ion-color-contrast: var(--ion-color-apple-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-apple-contrast-rgb);
+	--ion-color-shade: var(--ion-color-apple-shade);
+	--ion-color-tint: var(--ion-color-apple-tint);
+}
+
+.ion-color-facebook {
+	--ion-color-base: var(--ion-color-facebook);
+	--ion-color-base-rgb: var(--ion-color-facebook-rgb);
+	--ion-color-contrast: var(--ion-color-facebook-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb);
+	--ion-color-shade: var(--ion-color-facebook-shade);
+	--ion-color-tint: var(--ion-color-facebook-tint);
 }
 
 /**Login Sign in Card */
+
+
+.gradient-card {
+  position: absolute;
+  background-color: white;
+  height: 780px;
+  width: 83%;
+  margin-left: 34px;
+  margin-top: 30px;
+  border-radius: 16px;
+  z-index: 1;
+
+  background: linear-gradient(316deg, #9400d3, #4b0082, #0000ff, #52de52, #ffff00, #ff7f00, #f24848);
+  background-size: 1400% 1400%;
+
+  -webkit-animation: RainBow 42s ease infinite;
+  -moz-animation: RainBow 42s ease infinite;
+  animation: RainBow 42s ease infinite;
+}
+
+@-webkit-keyframes RainBow {
+  0%{background-position:0% 7%}
+  50%{background-position:100% 94%}
+  100%{background-position:0% 7%}
+}
+@-moz-keyframes RainBow {
+  0%{background-position:0% 7%}
+  50%{background-position:100% 94%}
+  100%{background-position:0% 7%}
+}
+@keyframes RainBow {
+  0%{background-position:0% 7%}
+  50%{background-position:100% 94%}
+  100%{background-position:0% 7%}
+}
+.user-card {
+  height: 760px;
+  width: 80%;
+  margin-left: 40px;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+
+.user-card-header {
+  
+  height: 120px;
+  background-color: #444447;
+}
+
+.alianza-icon-user {
+  
+  font-size: 85px;
+  position: absolute;
+  top: -8px;
+}
+
+.align-button-log-in {
+  margin-left: 20px;
+  width: 220px;
+}
+.align-button-sign-up {
+  margin-left: 16px;
+  width: 220px;
+}
+
+.card-email {
+
+  height: 360px;
+  width: 260px;
+  right: 20px;
+}
+
+.signup-email-card {
+  width: 260px;
+  height: 440px;
+  right: 20px;
+}
+
+.input-email {
+  border-radius: 8px;
+  width: 210px;
+}
+
+.error-pass1 {
+  font-size: small;
+}
+
+.google-icon {
+  margin-right: 55px;
+}
+
+.card-email-header {
+  background-color: #aaadb8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card-email-button {
+  margin-top: 18px;
+}
+
+
+.buttons-container {
+
+  margin-top: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.sign-buttons {
+
+  width: 200px;
+  height: 60px;
+  margin: 20px 0 10px 5%;
+}
+
+.sign-buttons span{
+  font-size: 20px;
+}
+
+.sign-icon {
+  height: 36px;
+  width: 36px;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+/**Login Sign in Card */
+
+/**Home*/
+
+.toolbar-home {
+  height: 80px;
+}
+
+/*Title*/
+
+.home-title {
+  margin-left: 160px;
+}
+
+/*Title*/
+
+/*Menu*/
+
+.profile-picture {
+  width: 220px;
+  height: 220px;
+  margin-left: 6px;
+  margin-top: 15px;
+}
+
+.menu-title {
+
+  font-size: medium;
+  margin-left: -35px;
+  padding-right: 15px;
+}
+
+.menu-item-avatar {
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+  border-radius: 200px;
+}
+
+.menu-avatar {
+  
+  height: 250px;
+}
+
+.exit-button {
+  width: 80px;
+  height: 80px;
+  margin-left: 95px;
+  margin-bottom: 40px;
+}
+
+.exit-menu-icon {
+  font-size: 30px;
+}
+
+.align-menu-items {
+
+  margin-left: 40px;
+  margin-top: 280px;
+
+}
+
+.requests-button {
+
+  margin-left: 15px;
+}
+
+/*Projects */
+
+.projects-list {
+  width: 260px;
+  margin-left: 85px;
+  border-radius: 8px;
+}
+
+.projects-modal {
+  color: black;
+}
+
+.add-project-button {
+  margin-left: 35px;
+  height: 30px;
+}
+
+.align-participants-label {
+  left: 25px;
+}
+
+.participants-card {
+
+  margin-left: -10px;
+  margin-top: -20px;
+  height: 900px;
+  width: 325px;
+  
+}
+
+.project-name-label {
+  width: 160px;
+}
+
+.project-name-item {
+  width: 200px
+}
+
+.participants-search {
+  width: 300px;
+  margin-left: -5px;
+}
+
+.requested-participants {
+  overflow: scroll;
+}
+
+.participants-search-card {
+  height: 250px;
+  margin-top: -20px;
+}
+
+.searched-user-avatar {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  margin-left: 56px;
+  padding-top: 5px;
+}
+
+.searched-user-img {
+  height: 70px;
+  width: 70px;
+  margin-left: 5px;
+  
+}
+
+.searched-user-name {
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.searched-user-rol {
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.searched-rol-txt {
+  margin-left: 45px;
+}
+
+.request-button {
+  margin-top: 10px;
+  font-size: medium;
+  height: 40px;
+  width: 160px;
+  margin-left: 16px;
+}
+
+.search-available-item {
+  border-radius: 10px;
+  
+}
+
+.colaborators-admins {
+  height: 170px;
+  width: 250px;
+  
+}
+
+.colad-item {
+  height: 50px;
+}
+
+.participants-headers {
+  width: 250px;
+}
+
+.align-lists {
+  margin-left: -10px;
+  
+}
+
+
+.search-available-coladmin{
+  
+  text-align: center;
+  
+  height: 20px;
+  margin-left: -20px;
+}
+
+.error-search-label {
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+
+/*Projects */
+
+/* Project Container */
+
+.project-container {
+  height: 600px;
+  margin-left: 0px;
+  width: 98%;
+}
+
+/* Project Container */
+
+/*Project Tool Bar */
+
+.toolBar {
+  width: 360px;
+  height: 80px;
+  --border-radius: 8px;
+}
+
+.tool-left {
+  margin-right: 15px;
+}
+
+.tool-middle {
+
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tool-right {
+  margin-left: 15px;
+}
+
+.goals-icon {
+  margin-left: 5px;
+}
+
+.chat-icon, .participants-icon {
+  font-size: 35px;
+}
+
+/*Goals*/
+
+.project-goal {
+  border-radius: 40px;
+}
+/*Goals*/
+
+/*Project Tool Bar */
+/*Menu*/
+
+/**Home*/
 
